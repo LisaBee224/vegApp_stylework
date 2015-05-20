@@ -1,0 +1,36 @@
+
+	<div class="userinfo">
+	<form name="myform" novalidate ng-submit="register()">
+		<h1>Register</h1>
+		<h2>Register to get in on the fun</h2>
+
+		<p class="error" ng-show="message" >{{ message }}</p>
+
+		<input id="userfield" type="firstname" name="firstname" placeholder="first name" 
+		ng-model="user.firstname" ng-required="true"
+		>
+		<p class="error" ng-show="myform.firstname.$invalid && myform.firstname.$touched">
+			Must enter a first name.
+		</p>
+<br>
+
+
+		<input id="userfield" type="email" name="email" placeholder="email" 
+		ng-model="user.email" ng-required="true"
+		>
+		<p class="error" ng-show="myform.email.$invalid && myform.email.$touched">
+			Must use a valid email address.
+		</p>
+<br>
+		<input id="userfield" type="password" name="password" placeholder="password"
+		ng-model="user.password" ng-required="true"
+		>
+
+		<p class="error" ng-show="myform.password.$invalid && myform.password.$touched">
+			Must enter a password.
+		</p>
+<br>
+		<button ng-disabled="myform.$invalid" type="submit">Register</button>
+	</form>
+</div>
+
