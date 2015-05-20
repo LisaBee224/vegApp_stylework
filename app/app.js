@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 var vegApp = angular.module('vegApp', ['ngRoute','firebase'])
 .constant('FIREBASE_URL', 'https://vegapp.firebaseIO.com');
 var appControllers = angular.module("itemListController," []);
+=======
+var vegApp = angular.module('vegApp', ['ngRoute']);
+
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 
 vegApp.config(['$routeProvider', function($routeProvider){
 
@@ -33,7 +38,12 @@ vegApp.config(['$routeProvider', function($routeProvider){
 		.otherwise({
 			redirectTo: '/login'
 		});
+<<<<<<< HEAD
 	}])
+=======
+	}
+]);
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 
 
 

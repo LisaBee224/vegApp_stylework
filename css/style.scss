@@ -2,7 +2,11 @@ $teal: #2cd6a3;
 $white: #ffffff;
 $neon: #d0ff00;
 $grey: #666666;
+<<<<<<< HEAD
 $blue: #d64e28;
+=======
+
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 
 
 
@@ -81,13 +85,27 @@ padding:25px;
 	width: 75%;
 	height: 200%;
 display:block;
+<<<<<<< HEAD
 margin-left:850px;
 margin-right:0;
+=======
+margin: 0 auto;
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 
 
 
 
+<<<<<<< HEAD
 
+=======
+	h2{
+	font-size:35px;
+	padding:20px;
+text-align:center;
+
+	color: $grey;
+	}
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 
 	p{
 	display:block;
@@ -100,6 +118,7 @@ text-align:left;
 
 .input{
 	text-align:center;
+<<<<<<< HEAD
 		h2{
 	font-size:35px;
 	padding:20px;
@@ -107,6 +126,8 @@ text-align:center;
 
 	color: $grey;
 	}
+=======
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 }
 	
 
@@ -143,15 +164,22 @@ display:inline-block;
 	}
 }
 
+<<<<<<< HEAD
 .recipe{
+=======
+.recipes{
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 width: 100%;
 	height: 100%;
 	padding-left: 25%;
 
+<<<<<<< HEAD
 	h1{
 	margin-top: 5%;
 	}
 
+=======
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 	ul{
 	padding-left:0;
 	}
@@ -160,6 +188,7 @@ width: 100%;
 	list-style:none;
 
 	}
+<<<<<<< HEAD
 
 	p{
 	text-align:left;
@@ -216,6 +245,11 @@ button{
 
 }
 
+=======
+	
+}
+
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 .form{
 width: 100%;
 	height: 100%;

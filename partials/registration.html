@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 	<div class="userinfo">
 	<form name="myform" novalidate ng-submit="register()">
@@ -7,30 +8,59 @@
 		<p class="error" ng-show="message" >{{ message }}</p>
 
 		<input id="userfield" type="firstname" name="firstname" placeholder="first name" 
+=======
+<section>
+	<form name="myform" novalidate ng-submit="register()">
+		<h3>Register</h3>
+		<p>Register to get in on the fun</p>
+
+		<p class="error" ng-show="message" >{{ message }}</p>
+
+		<input type="firstname" name="firstname" placeholder="first name" 
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 		ng-model="user.firstname" ng-required="true"
 		>
 		<p class="error" ng-show="myform.firstname.$invalid && myform.firstname.$touched">
 			Must enter a first name.
 		</p>
+<<<<<<< HEAD
 <br>
 
 
 		<input id="userfield" type="email" name="email" placeholder="email" 
+=======
+
+
+
+		<input type="email" name="email" placeholder="email" 
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 		ng-model="user.email" ng-required="true"
 		>
 		<p class="error" ng-show="myform.email.$invalid && myform.email.$touched">
 			Must use a valid email address.
 		</p>
+<<<<<<< HEAD
 <br>
 		<input id="userfield" type="password" name="password" placeholder="password"
+=======
+
+		<input type="password" name="password" placeholder="password"
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 		ng-model="user.password" ng-required="true"
 		>
 
 		<p class="error" ng-show="myform.password.$invalid && myform.password.$touched">
 			Must enter a password.
 		</p>
+<<<<<<< HEAD
 <br>
 		<button ng-disabled="myform.$invalid" type="submit">Register</button>
 	</form>
 </div>
 
+=======
+
+		<button ng-disabled="myform.$invalid" type="submit">Login</button>
+	</form>
+</section>
+>>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4

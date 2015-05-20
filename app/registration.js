@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 vegApp.controller("registration", 
-=======
-graphApp.controller("registration", 
->>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
 	function($scope, 
 		$location, 
 		$firebaseAuth, 
@@ -13,11 +9,7 @@ graphApp.controller("registration",
 		$scope.login = function(){
 			Authentication.login($scope.user)
 			.then(function(user){
-<<<<<<< HEAD
-				$location.path("/home");
-=======
-				$location.path("/graph");
->>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
+				$location.path("/main");
 			}).catch(function(error){
 				$scope.message = error.message;
 			}); // login
@@ -27,11 +19,7 @@ graphApp.controller("registration",
 		Authentication.register($scope.user)
 		.then(function(user){
 			Authentication.login($scope.user);
-<<<<<<< HEAD
-			$location.path("/home");
-=======
-			$location.path("/graph");
->>>>>>> cc9896fedbdfc40058bc50b6842c0794526dd8d4
+			$location.path("/main");
 		}).catch(function(error){
 			$scope.message = error.message;
 		});
