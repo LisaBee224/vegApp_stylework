@@ -1,4 +1,4 @@
-graphApp.factory('Authentication', 
+vegApp.factory('Authentication', 
 	function($firebase, 
 		$firebaseAuth, 
 		$routeParams, 
